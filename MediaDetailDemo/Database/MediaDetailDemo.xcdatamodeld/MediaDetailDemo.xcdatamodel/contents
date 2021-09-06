@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H505" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MovieDetails" representedClassName="MovieDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="backdropPath" optional="YES" attributeType="String"/>
+        <attribute name="duration" optional="YES" attributeType="String"/>
+        <attribute name="genres" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="languages" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="posterPath" optional="YES" attributeType="String"/>
+        <attribute name="productionBudget" optional="YES" attributeType="String"/>
+        <attribute name="productionCompanies" optional="YES" attributeType="String"/>
+        <attribute name="releaseData" optional="YES" attributeType="String"/>
+        <attribute name="revenue" optional="YES" attributeType="String"/>
+        <attribute name="tagline" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MovieList" representedClassName="MovieList" syncable="YES" codeGenerationType="class">
+        <attribute name="id1" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="overview1" optional="YES" attributeType="String"/>
+        <attribute name="posterPath1" optional="YES" attributeType="String"/>
+        <attribute name="releaseDate1" optional="YES" attributeType="String"/>
+        <attribute name="title1" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MovieList" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="MovieDetails" positionX="-54" positionY="-9" width="128" height="238"/>
+    </elements>
+</model>
