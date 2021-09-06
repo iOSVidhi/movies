@@ -1,2 +1,2 @@
-# movies
-The Movie App
+# Movies App
+This app demonstrate movies list.
